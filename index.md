@@ -10,9 +10,6 @@ hero:
     - theme: brand
       text: 开始阅读
       link: /markdown-examples
-    - theme: alt
-      text: 查看示例
-      link: /api-examples
 
 ---
 

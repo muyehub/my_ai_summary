@@ -9,18 +9,21 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
-      { text: '案例', link: '/markdown-examples' }
+      { text: '随笔', link: '/markdown-examples' }
     ],
 
-    sidebar: [
+    sidebar: {
+      "/": [
       {
-        text: '案例',
+        text: '随笔',
+        collapsed: true,
         items: [
           { text: 'Markdown 案例', link: '/markdown-examples' },
           { text: 'Runtime API Examples', link: '/api-examples' }
         ]
       }
     ],
+  },
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/muyehub' }
